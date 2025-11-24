@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module that defines a function to 
+"""Module that defines a function to
 sum a list of floats with type annotations."""
 
 

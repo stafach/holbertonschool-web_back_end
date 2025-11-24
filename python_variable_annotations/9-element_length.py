@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+"""Function that takes an iterable of sequences
+and returns a list of tuples containing each
+sequence and its length."""
+
+from typing import List, Tuple, Iterable, Sequence
+
+
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    """Returns a list of tuples with each sequence and its length."""
+    return [(i, len(i)) for i in lst]

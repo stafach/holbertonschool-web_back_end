@@ -16,10 +16,14 @@ Jinja2==3.1.6
 jsonschema==4.25.1
 jsonschema-specifications==2025.9.1
 MarkupSafe==3.0.3
+mypy==1.18.2
+mypy_extensions==1.1.0
+pathspec==0.12.1
 pycodestyle==2.14.0
 PyJWT==2.10.1
 referencing==0.36.2
 rpds-py==0.27.1
 SQLAlchemy==2.0.44
+tomli==2.3.0
 typing_extensions==4.15.0
 Werkzeug==3.1.3

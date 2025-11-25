@@ -7,9 +7,11 @@ from typing import AsyncGenerator
 
 
 async def async_generator() -> AsyncGenerator[float, None]:
-    """Function that will loop 10 times, each
-    time asynchronously wait 1 second, then
-    yield a random number between 0 and 10"""
+    """
+    Coroutine that loops 10 times.
+    Each iteration waits 1 second asynchronously,
+    then yields a random float between 0 and 10.
+    """
     i: int = 0
     for i in range(10):
         await asyncio.sleep(1)
